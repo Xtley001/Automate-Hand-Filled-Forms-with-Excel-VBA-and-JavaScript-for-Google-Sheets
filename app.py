@@ -49,7 +49,7 @@ function loadDataToGoogleSheet() {
 
 # Streamlit App
 def main():
-    st.title("Batch Image to Code Converter for Excel and Google Sheets")
+    st.title("Convert Batch Images to Code for Excel and Google Sheets")
     st.write("Upload multiple images to extract text and generate code.")
 
     uploaded_files = st.file_uploader("Choose image files", type=["jpg", "jpeg", "png"], accept_multiple_files=True)
